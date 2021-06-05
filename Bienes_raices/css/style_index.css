@@ -1,0 +1,175 @@
+html{
+    font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+
+/*GLOBALES*/
+
+img {
+
+    max-width: 100%;
+}
+.contenedor {
+    max-width: 120rem; /** = 1200px **/
+    margin: 0 auto;
+}
+
+h1 {
+font-size: 3.8rem;
+}
+
+h2 {
+font-size: 3.4rem;
+}
+
+h3 {
+font-size: 3rem;
+}
+
+h4 {
+font-size: 2.6rem;
+}
+
+
+/*UTILIDADES*/
+
+.seccion {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.fw-300 {
+font-weight: 300;
+}
+
+.centrar-texto {
+text-align: center;
+
+}
+
+/*BOTONES*/
+
+.boton {
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 1.8rem;
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+}
+
+.boton-amarrillo {
+
+    background-color: #e08709;
+}
+
+.boton-verde {
+    background-color: #71b100;
+}
+
+
+
+/*HEADER*/
+
+.site-header.inicio{
+    background-image: url(../img/header.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    min-height: 60rem;
+}
+
+.contenido-header {
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.contenido-header h1 {
+color: white;
+padding-bottom: 2rem;
+max-width: 60rem;
+line-height: 2;
+}
+
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+/*NAVEGACION*/
+
+.navegacion a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+
+.navegacion a:hover {
+
+    color: #71b100;
+}
+.navegacion a:last-of-type {
+    margin: 0;
+}
+
+/*ICONOS NOSOTROS*/
+
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icono {
+    flex-basis: calc(33.3% - 1rem);
+    text-align: center;
+    line-height: 1.8;
+}
+
+.icono h3 {
+    text-transform: uppercase;
+}
+
+
+
+/*ANUNCIOS */
+
+.contenedor-anuncio{
+    display: flex;
+    justify-content: space-between;
+}
+
+.anuncio {
+    flex-basis: calc(33.3% - 1rem);
+    border: 1px solid #B5B4B5;
+    background-color: #F5F5F5;
+
+}
+
+.contenido-anuncio {
+    padding: 2rem;
+}
+
+
+.contenedor-anuncio h3, 
+.contenedor-anuncio p {
+    
+    margin: 0;
+   
+}
+
+.precio {
+    color:  #71b100;
+    font-weight: 700;
+}
+
